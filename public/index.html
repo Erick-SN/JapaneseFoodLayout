@@ -11,28 +11,30 @@
 <body class="text-gray-600 font-body">
 
     <!-- Content wrapper -->
-    <div>
-        <!-- Navigation -->
-        <nav>
-            <div>
-                <h1 class="title">
-                    <a href="#">Japanese Food</a>
-                </h1>
-            </div>
-            <ul>
-                <li class="text-gray-700 font-bold">
-                    <a href="#"><span>Home</span></a>
-                </li>
-                <li>
-                    <a href=#"><span>About</span></a>
-                </li>
-                <li>
-                    <a href="#"><span>Home</span></a>
-                </li>
-            </ul>
-        </nav>
-        <!-- EndNavigation -->
-        <main class="px-16 py-6 bg-gray-100">
+    <div class="grid md:grid-cols-3">
+        <div class="md:col-span-1">
+            <!-- Navigation -->
+            <nav>
+                <div>
+                    <h1 class="title">
+                        <a href="#">Japanese Food</a>
+                    </h1>
+                </div>
+                <ul>
+                    <li class="text-gray-700 font-bold">
+                        <a href="#"><span>Home</span></a>
+                    </li>
+                    <li>
+                        <a href=#"><span>About</span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span>Home</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- EndNavigation -->
+        </div>
+        <main class="px-16 py-6 bg-gray-100 md:col-span-2">
             <div class="flex justify-center md:justify-end">
                 <a href="#" class="text-primary">Log in</a>
                 <a href="#" class="text-primary ml-2">Sign up</a>
@@ -43,7 +45,7 @@
             </header>
             <div>
                 <h4 class="h4Title">Lastest Recipes</h4>
-                <div class="mt-8">
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     <!-- Card go here -->
                     <div class="card">
                         <img src="./images/curry.jpg" alt="Recipes" class="image sm:h-48">
