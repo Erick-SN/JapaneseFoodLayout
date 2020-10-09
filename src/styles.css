@@ -30,3 +30,7 @@
 .product-description{
     @apply block text-gray-500 text-sm;
 }
+
+.button{
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+}
