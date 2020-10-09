@@ -21665,6 +21665,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.card:hover{
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
 .badge{
   position: absolute;
   --bg-opacity: 1;
@@ -21733,6 +21737,15 @@ video {
   font-weight: 700;
   cursor: pointer;
   letter-spacing: 0.05em;
+}
+
+.btn:hover{
+  --bg-opacity: 1;
+  background-color: #ff6363;
+  background-color: rgba(255, 99, 99, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
 }
 
 @media (min-width: 640px){
