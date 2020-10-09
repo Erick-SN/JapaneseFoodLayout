@@ -21748,6 +21748,18 @@ video {
   color: rgba(255, 255, 255, var(--text-opacity));
 }
 
+.anchor{
+  display: block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  border-right-width: 4px;
+  --border-opacity: 1;
+  border-color: #ff6363;
+  border-color: rgba(255, 99, 99, var(--border-opacity));
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

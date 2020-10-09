@@ -42,3 +42,7 @@
 .btn:hover{
     @apply bg-primary text-white;
 }
+
+.anchor{
+    @apply block px-4 flex justify-end border-r-4 border-primary;
+}
