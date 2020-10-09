@@ -9,4 +9,24 @@
 
 .badge{
     @apply absolute bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 top-0 ml-2 mt-2;
-} 
+}
+
+.title{
+    @apply font-bold uppercase p-4 border-b border-gray-100;
+}
+
+.h4Title{
+    @apply font-bold mt-12 pb-2 border-b border-gray-200;
+}
+
+.image{
+    @apply w-full h-32  object-cover;
+}
+
+.product-title{
+    @apply font-bold;
+}
+
+.product-description{
+    @apply block text-gray-500 text-sm;
+}
